@@ -183,3 +183,93 @@ class BillionairesPortfolioPageLocators(object):
         By.CSS_SELECTOR,
         "#row-0 > div.channel__content > div.channel__columns > div:nth-child(1) > div > a.headlink",
     )
+
+
+class FiveGPageLocators(object):
+    META_VERSE_POST = (
+        By.CSS_SELECTOR,
+        "#row-2 > div > div > div > div.chansec-stream__content > div > div > article:nth-child(1) > div.stream-item__text > h3 > a",
+    )
+
+
+class ForbesLiveEventsPageLocators(object):
+    COVID_LEARN_MORE = (
+        By.CSS_SELECTOR,
+        "#eventModalBtn",
+    )
+
+
+class metaVersePostPageLocators(object):
+    FACEBOOK = (
+        By.CSS_SELECTOR,
+        "#article-stream-0 > div:nth-child(2) > div.body-container > div.article-body-container.show-iframes > div.article-body.fs-article.fs-responsive-text.current-article > div.article-sharing > ul > li:nth-child(1) > a",
+    )
+
+    TWITTER = (
+        By.CSS_SELECTOR,
+        "#article-stream-0 > div:nth-child(2) > div.body-container > div.article-body-container.show-iframes > div.article-body.fs-article.fs-responsive-text.current-article > div.article-sharing > ul > li:nth-child(2) > a",
+    )
+
+    LINKEDIN = (
+        By.CSS_SELECTOR,
+        "#article-stream-0 > div:nth-child(2) > div.body-container > div.article-body-container.show-iframes > div.article-body.fs-article.fs-responsive-text.current-article > div.article-sharing > ul > li:nth-child(3) > a",
+    )
+
+    TWITTER_FOLLOW = (
+        By.CSS_SELECTOR,
+        "#article-stream-0 > div:nth-child(2) > div.body-container > div.article-body-container.show-iframes > div.sigfile.article-body.fs-responsive-text > a:nth-child(2)",
+    )
+
+    LINKEDIN_FOLLOW = (
+        By.CSS_SELECTOR,
+        "#article-stream-0 > div:nth-child(2) > div.body-container > div.article-body-container.show-iframes > div.sigfile.article-body.fs-responsive-text > a:nth-child(3)",
+    )
+
+    WEBSITE_FOLLOW = (
+        By.CSS_SELECTOR,
+        "#article-stream-0 > div:nth-child(2) > div.body-container > div.article-body-container.show-iframes > div.sigfile.article-body.fs-responsive-text > a:nth-child(5)",
+    )
+
+    READ_MORE = (
+        By.CSS_SELECTOR,
+        "#article-stream-0 > div:nth-child(2) > div.body-container > div.article-body-container.show-iframes > div.bottom-contrib-block > p > span > button",
+    )
+
+
+class SearchPageLocators(object):
+    MOST_RECENT = (
+        By.CSS_SELECTOR,
+        "body > div.main-content.main-content--overflow-visible.main-content--universal-header > main > div.search-content-wrapper > div.search-content.main-content__left-col > div.search-sort > div.search-sort__button.search-sort__button-recent",
+    )
+
+    ALL_TIME = (
+        By.CSS_SELECTOR,
+        "body > div.main-content.main-content--overflow-visible.main-content--universal-header > main > div.search-content-wrapper > div.search-content.main-content__left-col > div.search-sort > div.search-sort__dropdown",
+    )
+
+    PAST_YEAR = (
+        By.CSS_SELECTOR,
+        "body > div.main-content.main-content--overflow-visible.main-content--universal-header > main > div.search-content-wrapper > div.search-content.main-content__left-col > div.search-sort > div.search-sort__dropdown > ul > li:nth-child(2)",
+    )
+
+    PAST_MONTH = (
+        By.CSS_SELECTOR,
+        "body > div.main-content.main-content--overflow-visible.main-content--universal-header > main > div.search-content-wrapper > div.search-content.main-content__left-col > div.search-sort > div.search-sort__dropdown > ul > li:nth-child(3)",
+    )
+
+    PAST_WEEK = (
+        By.CSS_SELECTOR,
+        "body > div.main-content.main-content--overflow-visible.main-content--universal-header > main > div.search-content-wrapper > div.search-content.main-content__left-col > div.search-sort > div.search-sort__dropdown > ul > li:nth-child(4)",
+    )
+
+    TODAY = (
+        By.CSS_SELECTOR,
+        "body > div.main-content.main-content--overflow-visible.main-content--universal-header > main > div.search-content-wrapper > div.search-content.main-content__left-col > div.search-sort > div.search-sort__dropdown > ul > li:nth-child(5)",
+    )
+
+
+class SubscribePageLocators(object):
+    MONTHLY_BUTTON = (
+        By.CSS_SELECTOR,
+        "#view-offer > div.lazy-transclude > div > div.offers-flexBox > div:nth-child(1) > button",
+    )
