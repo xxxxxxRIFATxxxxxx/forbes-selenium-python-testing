@@ -9,8 +9,9 @@ driver.maximize_window()
 # Test
 driver.get("https://www.forbes.com/")
 
-SIGN_IN_BUTTON = driver.find_element(By.CSS_SELECTOR, "body > div.main-content.main-content--universal-header > header > nav > div.header__right > div > div")
-SIGN_IN_BUTTON.click()
+SUBSCRIBE_BUTTON = driver.find_element(By.XPATH, "/html/body/div[1]/header/nav/div[4]/div/a")
+SUBSCRIBE_BUTTON.click()
+driver.get("https://account.forbes.com/subscribe?eventSource=header&redirect=https://www.forbes.com/home_asia/")
 
 # Close Driver
 driver.close()
