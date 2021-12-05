@@ -12,6 +12,15 @@ class HomePageLocators(object):
         "body > div.main-content.main-content--universal-header > header > nav > div.header__right > div > div > button",
     )
 
+    EMAIL_FIELD = (By.CSS_SELECTOR, "#email")
+
+    PASSWORD_FIELD = (By.CSS_SELECTOR, "#password")
+
+    SIGN_IN_BUTTON = (
+        By.CSS_SELECTOR,
+        "#autofill-form > screen-login > button.login-modal__login-button",
+    )
+
     SEARCH_BUTTON = (
         By.CSS_SELECTOR,
         "body > div.main-content.main-content--universal-header > header > nav > div.header__right > button",
